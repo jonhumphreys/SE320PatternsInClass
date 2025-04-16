@@ -1,6 +1,6 @@
 ﻿namespace ObserverOOP;
 
-public class IEpisodeListener
+public interface IEpisodeListener
 {
-    
+    void OnEpisodePublished(string episodeName);
 }
